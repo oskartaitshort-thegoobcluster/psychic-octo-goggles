@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bradar AI Live (Parody)</title>
+  <style>
+    body {
+      background: #0f0f0f;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    video {
+      display: none;
+      margin-top: 15px;
+      max-width: 100%;
+    }
+
+    #reactionText {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<p>say something to bradar</p>
+
+<input id="userInput" placeholder="Type here..." />
+<br>
+<button onclick="send()">Send</button>
+
+<div id="reactionText"></div>
+<video id="reaction" src="bradar.mp4"></video>
+
+<script src="script.js"></script>
+</body>
+</html>
